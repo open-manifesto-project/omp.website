@@ -1,0 +1,37 @@
+{
+    "home": {
+        "path_to_layout": "src/layouts/home.ejs",
+        "path_to_data": [
+            "src/data/global.json",
+            {"src/data/meta.json": "home"}
+        ]
+    },
+    "open-manifesto": {
+        "path_to_layout": "src/layouts/open-manifesto.ejs",
+        "path_to_data": [
+            "src/data/global.json",
+            {"src/data/meta.json": "opeb-manifesto"}
+        ]
+    },
+    "proceso": {
+        "path_to_layout": "src/layouts/proceso.ejs",
+        "path_to_data": [
+            "src/data/global.json",
+            {"src/data/meta.json": "proceso"}
+        ]
+    },
+    "apps": {
+        "path_to_layout": "src/layouts/apps.ejs",
+        "path_to_data": [
+            "src/data/global.json",
+            {"src/data/meta.json": "apps"}
+        ]
+    },
+    "quienes-somos": {
+        "path_to_layout": "src/layouts/quienes-somos.ejs",
+        "path_to_data": [
+            "src/data/global.json",
+            {"src/data/meta.json": "quienes-somos"}
+        ]
+    }
+}
