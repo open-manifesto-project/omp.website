@@ -1660,7 +1660,7 @@ ul.menu li:first-child {
 }
 #banner-wrapper #banner {
   position: relative;
-  padding: 4.5em;
+  padding: 2.5em;
 }
 #banner-wrapper #banner h2 {
   font-size: 2.5em;
@@ -2129,6 +2129,10 @@ button.icon:before,
   #logo h1 {
     font-size: 2.75em;
     padding: 0.2em 0.275em;
+  }
+  #logo h1 img {
+    width: 300px;
+    height: auto;
   }
   #logo span {
     line-height: 3em;
