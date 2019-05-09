@@ -43,7 +43,7 @@
           <ul>
             <li><a href="/proceso#metodologia">Metodología</a></li>
             <li><a href="/proceso#gobernanza">Gobernanza</a></li>
-            <li><a href="/proceso#apoyo">Apoyo</a></li>
+            <li><a href="/proceso#apoyos">Apoyos</a></li>
             <li><a href="/proceso#adopcion">Adopción</a></li>
             <li><a href="/proceso#documentacion">Documentación</a></li>
             <li><a href="/proceso#seguimiento">Seguimiento</a></li>
@@ -95,10 +95,37 @@
             </ul>
 
             <h3 id="ultima-version">Última versión</h3>
-            <p>La versión actual de OM con la que estamos trabajando es la v0.1. El conjunto de especificaciones se implementa mediante un archivo JSON en el que se recogen los atributos distribuidos, que caracterizan tanto al programa electoral como a las propuestas que contiene. Los tipos definidos para los atributos se corresponden con los establecidos por schema.org.</p>
-            <p><a href="https://github.com/open-manifesto-project/Open-Manifesto/blob/master/Standard/OpenManifestoV0.1.schema.json" target="_blank">Consulta la estructura de atributos de la versión OM v0.1</a></p>
-            
-
+            <p>La versión actual de OM con la que estamos trabajando es la v1.0. En ella se incluyen los atributos para caracterizar al programa electoral y a las propuestas que contiene.</p>
+            <h5>PROGRAMA ELECTORAL</h5>
+            <p>
+            <ul>
+              <li>Nombre del partido político</li>
+              <li>Título</li>
+              <li>Fecha de publicación</li>
+              <li>Fecha contienda electoral para la que ha sido elaborado el programa</li>
+              <li>Tipo de contienda electoral (europeas, nacional, autonómica o municipal)</li>
+              <li>Área geográfica (nombre del país, de la autonomía o del municipio)</li>
+              <li>Versión del estándar bajo la que se publica el programa</li>
+              <li>URI (identificador de recursos uniforme) para la versión estandarizada del programa</li>
+              <li>Número de páginas</li>
+              <li>Número de propuestas</li>
+              <li>Listado de propuestas</li>
+            </ul>
+            <h5>PROPUESTAS</h5>
+            <p>
+              <ul>
+                <li>Identificador numérico</li>
+                <li>Texto de la propuesta</li>
+                <li>Tema principal sobre la que versa la propuesta siguiendo la taxonomía propuesta en la Norma Técnica de Interoperabilidad de España</li>
+                <li>Lista de subtemas específicos abordados en la propuesta</li>
+                <li>Prioridad asignada por el partido político (baja, media, alta, N/A)</li>
+                <li>Presupuesto establecido para el desarrollo de la propuesta</li>
+                <li>Indicador de si la propuesta es negociable</li>
+                <li>Lista de agentes incluidos o mencionados en la propuesta</li>
+              </ul>
+            </p>
+            <p><a class="button" href="https://github.com/open-manifesto-project/Open-Manifesto/blob/master/Standard/OpenManifestoV1.0.schema.json" target="_blank">Accede a OM v1.0</a></p>
+            </p>
           </article>
 
         </div>
@@ -204,6 +231,14 @@
 
       </div>
     </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a class="image fit" href="#">
+          <img src="/assets/images/bandalogos.png" alt="">
+        </a>
+      </div>
+    </div>
+    
     <div class="row">
       <div class="col-12">
         <div id="copyright">
